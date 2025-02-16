@@ -1,12 +1,6 @@
-class Book {
-    var title: String = ""
-    var author: String = ""
-    var yearPublished: Int = 0
+class Book(var title: String, var author: String, var yearPublished: Int) {
 }
 
 fun main() {
-    val myBook = Book()
-    myBook.title = "Annie Bot"
-    myBook.author = "Sierra Greer"
-    myBook.yearPublished = 2024
+    val myBook = Book("Annie Bot", "Sierra Greer", 2024)
 }
