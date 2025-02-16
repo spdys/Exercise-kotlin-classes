@@ -1,6 +1,6 @@
 class Book {
     var title: String = ""
-    val author: String = ""
+    var author: String = ""
     var yearPublished: Int = 0
 }
 
